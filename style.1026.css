@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+.red{
+	position: absolute;
+	top:0px;
+	width: 75%;
+	height: 66.66666666% ;
+	left: 0px;
+	background-color:#748C76;
+	display: flex;
+	flex-direction:column;
+}
+.orange{
+	position: absolute;
+	bottom:0px;
+	width: 18.75%;
+	height: 33.33333333% ;
+	left: 0px;
+	background-color:#ADBF98;
+	display: flex;
+	flex-direction:column;
+}
+.yellow{
+	position: absolute;
+	bottom:0px;
+	width: 18.75%;
+	height: 33.33333333% ;
+	left: 18.75%;
+	background-color:#D9C7A7;
+	display: flex;
+	flex-direction:column;
+}
+.green{
+	position: absolute;
+	top:0px;
+	width: 25%;
+	height: 33.33333333%;
+	right: 0px;
+	background-color:#D9A384;
+	display: flex;
+	flex-direction:column;
+}
+.blue{
+	position: absolute;
+	top:33.33333333%;
+	width: 25%;
+	height:33.33333333%;
+	right: 0px;
+	background-color:#F8EBD8;
+	display: flex;
+	flex-direction:column;
+}
+.purple{
+	position: absolute;
+	top:66.66666666%;
+	width:62.5%;
+	height:33.33333333%;
+	right: 0px;
+	background-color:#B5C4B1;
+	display: flex;
+	flex-direction:column;
+}
+
+@media screen and (max-width: 900px) {
+	.red{
+	position: absolute;
+	top:0px;
+	width: 25%;
+	height: 30% ;
+	left: 0px;
+	background-color:#D9A384;
+	display: flex;
+	flex-direction:column;
+    }
+    .orange{
+	position: absolute;
+	bottom:0px;
+	width: 25%;
+	height: 70% ;
+	left: 0px;
+	background-color:#F8EBD8;
+	display: flex;
+	flex-direction:column;
+    }
+    .yellow{
+	position: absolute;
+	top:30%;
+	width: 37.5%;
+	height: 50% ;
+	left: 25%;
+	background-color:#B5C4B1;
+	display: flex;
+	flex-direction:column;
+    }
+    .green{
+	position: absolute;
+	top:0px;
+	width: 75%;
+	height: 30%;
+	right: 0px;
+	background-color:#748C76;
+	display: flex;
+	flex-direction:column;
+    }
+    .blue{
+	position: absolute;
+	top:30%;
+	width: 37.5%;
+	height:50%;
+	right: 0px;
+	background-color:#ADBF98;
+	display: flex;
+	flex-direction:column;
+    }
+    .purple{
+	position: absolute;
+	top:80%;
+	width: 75%;
+	height:20%;
+	right: 0px;
+	background-color:#D9C7A7;
+	display: flex;
+	flex-direction:column;
+    }
+}
